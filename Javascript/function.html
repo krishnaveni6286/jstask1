@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* add two numbers */
+
+function add(a,b){
+   
+   return a+b;
+}
+  console.log(add(10,20));
+  
+
+        /* print factorial using functions*/
+        function fact(){
+   var t=1
+    for(i=1;i<=5;i++){
+        t=t*i
+      }
+     return t;
+}
+ console.log(fact());
+
+ /* even numbers */
+ function even(){
+    for(a=0;a<=10;a+=2){
+        console.log(a)
+        
+    }
+     return(a) ;
+}
+console.log(even())
+    
+/* odd numbers */
+function odd(){
+    for(a=1;a<=10;a+=2){
+        console.log(a)
+        
+    }
+     return(a) ;
+}
+console.log(odd())
+/* greatest of two numbers */
+function GTN(){
+    var a=100;
+    var b=788;
+    var c=9;
+    if(a>b && a>c){
+        console.log( a+"  is bigger")
+    }
+    else if(b>a && b>c){
+        console.log( b+"  is bigger")
+    }
+    else{
+        console.log( c+" is bigger")
+    }
+return a,b,c;
+}
+console.log(GTN())
+
+/* print 1-10 numbers */
+function num(){
+    for (a=0;a<=10;a++){
+      
+ console.log(a)
+   }
+  return a;    
+}
+ console.log(num()) 
+
+/* square of 1-10 numbers */
+function square(){
+    for (a=2;a<=10;a++){
+      
+ console.log(a**2)
+   }
+  return a;    
+}
+console.log(square()) 
+
+/* prime numbers */
+function prime(){
+for(a=0;a<=50;a++)
+{ 
+    var factorcount=0;
+for(j=1;j<=a;j++)
+{
+    if(a%j==0)
+    {
+        factorcount++;
+    }
+}
+if(factorcount==2)
+{
+    console.log(a)
+}
+}
+return a;
+}
+console.log(prime()) 
+
+    
+
+
+    </script>
+</body>
+</html>
