@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    <img src="" alt="">
+    <h1></h1>
+    <script>
+var aa=localStorage.getItem("task1");
+console.log(aa);
+var parsed=JSON.parse(aa);
+
+console.log(parsed)
+let img=document.getElementsByTagName("img");
+img[0].setAttribute("src",parsed.image)
+
+
+
+
+
+
+    </script>
+</body>
+</html>
